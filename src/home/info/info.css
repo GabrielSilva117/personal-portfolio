@@ -1,0 +1,43 @@
+.info-section {
+  display: grid;
+  justify-content: center;
+}
+
+.info-profile-img {
+  display: flex;
+  justify-content: center;
+}
+.prof-pic {
+  border-radius: 80%;
+}
+
+.info-text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.info-text h1 {
+  margin: 10px 0 0 0;
+}
+
+.info-text h2 {
+  color: rgb(116, 111, 111);
+  font-size: 26px;
+}
+
+.info-skills {
+  font-size: 20px;
+  display: flex;
+}
+
+.info-skills div a {
+  color: black;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.info-skill-box {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
