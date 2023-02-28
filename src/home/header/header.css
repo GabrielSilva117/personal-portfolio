@@ -1,0 +1,11 @@
+.header-section {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  height: auto;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+}
