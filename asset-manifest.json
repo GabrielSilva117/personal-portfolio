@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.85d0dbd3.css",
+    "main.js": "/personal-portfolio/static/js/main.4f18179f.js",
+    "static/media/universidade-anhanguera-logo-1.png": "/personal-portfolio/static/media/universidade-anhanguera-logo-1.d5a5e5fe342d10561db4.png",
+    "static/media/typeorm-icon.svg": "/personal-portfolio/static/media/typeorm-icon.acf7dabb239efb30294c5db82a175a6b.svg",
+    "static/media/92172232.jpeg": "/personal-portfolio/static/media/92172232.1eec7ac24c10751a62be.jpeg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.85d0dbd3.css.map": "/personal-portfolio/static/css/main.85d0dbd3.css.map",
+    "main.4f18179f.js.map": "/personal-portfolio/static/js/main.4f18179f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85d0dbd3.css",
+    "static/js/main.4f18179f.js"
+  ]
+}
