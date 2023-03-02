@@ -1,7 +1,6 @@
 import React from 'react'
 import AboutMe from './aboutMe/AboutMe'
-import './header/header.css'
-import HeaderBar from './header/HeaderBar'
+import Facul from './facul/Facul'
 import InfoContainer from './info/InfoContainer'
 import TechContainer from './tech/TechContainer'
 
@@ -16,6 +15,9 @@ const HomePage = () => {
       </section>
       <section className="aboutme-section">
         <AboutMe />
+      </section>
+      <section>
+        <Facul />
       </section>
       <section className="tech-section">
         <TechContainer />
