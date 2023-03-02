@@ -14,8 +14,8 @@ const Evengration = () => {
         </div>
       </div>
       <p>
-        Projeto realizado para uma empresa de eventos, onde a entrega culminou
-        em aplicação com um ambiente responsivo e amigável para clientes do
+        Projeto realizado para uma startup de eventos, onde a entrega culminou
+        em uma aplicação com um ambiente responsivo e amigável para clientes do
         nicho da mesma. Para o desevolvimento do projeto, foram utilizadas as
         tecnologias: React, Bootstrap.
       </p>
