@@ -6,9 +6,9 @@
 .aboutme-container {
   display: grid;
   justify-content: center;
-  width: 800px;
+  width: 850px;
   height: auto;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 .aboutme-text {
