@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --red: rgba(255, 0, 0, 0.74);
+  --bege: rgb(111, 103, 91);
+  --light-bege: rgb(168 161 149);
+  --light-gray: rgb(65 71 73);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 #light {
@@ -48,6 +55,7 @@ h4::after {
   content: '';
   flex: 1 1;
   margin: auto 7px auto 7px;
+  border-bottom: 2px solid var(--bege);
 }
 
 .link-option {

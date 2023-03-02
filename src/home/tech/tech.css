@@ -4,8 +4,14 @@
 }
 
 .table-container {
-  width: 800px;
+  width: 850px;
   height: auto;
   text-align: center;
   margin-top: 20px;
+}
+
+.table th,
+.table thead th {
+  border-top-color: var(--bege);
+  border-bottom-color: var(--bege);
 }
