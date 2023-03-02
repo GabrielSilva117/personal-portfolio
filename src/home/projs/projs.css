@@ -3,6 +3,10 @@
   justify-content: center;
   justify-items: center;
 }
+
+.projs-container .subtitle {
+  width: 1200px;
+}
 .projs-row {
   display: grid;
   justify-content: center;

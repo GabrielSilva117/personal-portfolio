@@ -16,7 +16,7 @@ const ProjsContainer = () => {
       data-aos="fade-up"
       data-aos-placement="tech-section"
     >
-      <div className="subtitle" style={{ width: '1200px' }}>
+      <div className="subtitle">
         <h4>Projetos</h4>
       </div>
       <div className="projs-row">
