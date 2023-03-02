@@ -30,7 +30,7 @@ const TechContainer = () => {
       <div className="subtitle">
         <h4>Tecnologias</h4>
       </div>
-      <Table className="table-container">
+      <Table className="table-container" hover>
         <thead>
           <tr>
             <th>Ícone</th>
