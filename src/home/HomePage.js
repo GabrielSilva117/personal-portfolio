@@ -2,14 +2,12 @@ import React from 'react'
 import AboutMe from './aboutMe/AboutMe'
 import Facul from './facul/Facul'
 import InfoContainer from './info/InfoContainer'
+import ProjsContainer from './projs/ProjsContainer'
 import TechContainer from './tech/TechContainer'
 
 const HomePage = () => {
   return (
     <div>
-      <section className="header-section">
-        <HeaderBar />
-      </section>
       <section>
         <InfoContainer />
       </section>
@@ -21,6 +19,9 @@ const HomePage = () => {
       </section>
       <section className="tech-section">
         <TechContainer />
+      </section>
+      <section>
+        <ProjsContainer />
       </section>
     </div>
   )
