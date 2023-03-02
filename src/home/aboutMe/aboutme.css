@@ -1,0 +1,23 @@
+.aboutme-section {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme-container {
+  display: grid;
+  justify-content: center;
+  width: 850px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.aboutme-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.aboutme-text p {
+  text-align: justify;
+  width: 95%;
+  font-size: 20px;
+}
