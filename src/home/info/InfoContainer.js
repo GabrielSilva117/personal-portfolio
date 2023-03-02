@@ -19,17 +19,25 @@ const InfoContainer = () => {
       <div className="info-skills">
         <div className="info-skill-box">
           <BsGithub />
-          <a href="https://github.com/GabrielSilva117">GabrielSilva117</a>
+          <a href="https://github.com/GabrielSilva117" className="link-option">
+            GabrielSilva117
+          </a>
         </div>
         <div className="info-skill-box">
           <BsLinkedin />
-          <a href="https://www.linkedin.com/in/gabriel-ferreira-554842217/">
+          <a
+            href="https://www.linkedin.com/in/gabriel-ferreira-554842217/"
+            className="link-option"
+          >
             Gabriel Ferreira
           </a>
         </div>
         <div className="info-skill-box">
           <SiGmail />
-          <a href="gabriel.f.silva117@gmail.com">
+          <a
+            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqTfrJdsGHkkMmspbscqFDZwcWNJzVSZhLzbDntFjMTcMqbvZsDVsBmprjVmtVBCdKfKLV"
+            className="link-option"
+          >
             gabriel.f.silva117@gmail.com
           </a>
         </div>

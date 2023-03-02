@@ -21,5 +21,35 @@ h4::after {
   content: '';
   flex: 1 1;
   margin: auto 7px auto 7px;
-  border-bottom: 2px solid #000;
+}
+
+.link-option {
+  font-size: 20px;
+  margin-left: 5px;
+  line-height: 23.4px;
+  display: inline-block;
+  position: relative;
+  color: inherit;
+}
+
+.link-option:hover {
+  text-decoration: none;
+}
+
+.link-option::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  transform: scaleX(0);
+  background-color: var(--red);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.link-option:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

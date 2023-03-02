@@ -15,6 +15,7 @@ const ProjsContainer = () => {
               <div className="proj-title">
                 <a
                   href="https://github.com/GabrielSilva117/tech-overview-server"
+                  className="link-option"
                 >
                   <h1>Tech Overview</h1>
                 </a>
@@ -38,6 +39,7 @@ const ProjsContainer = () => {
               <div className="proj-title">
                 <a
                   href="https://github.com/GabrielSilva117/blog-prod"
+                  className="link-option"
                 >
                   <h1>BlogApp</h1>
                 </a>
@@ -79,6 +81,7 @@ const ProjsContainer = () => {
               <div className="proj-title">
                 <a
                   href="https://github.com/GabrielSilva117/todo_list"
+                  className="link-option"
                 >
                   <h1>Todo List</h1>
                 </a>
@@ -102,6 +105,7 @@ const ProjsContainer = () => {
               <div className="proj-title">
                 <a
                   href="https://github.com/GabrielSilva117/money_saver_server"
+                  className="link-option"
                 >
                   <h1>Money Saver</h1>
                 </a>
