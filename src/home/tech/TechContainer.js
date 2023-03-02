@@ -26,7 +26,11 @@ import './tech.css'
 const TechContainer = () => {
   const iconSize = '1.5rem'
   return (
-    <div className="table-container">
+    <div
+      className="table-container"
+      data-aos-placement="facul-section"
+      data-aos="fade-up"
+    >
       <div className="subtitle">
         <h4>Tecnologias</h4>
       </div>

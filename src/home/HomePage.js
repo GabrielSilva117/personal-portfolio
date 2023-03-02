@@ -8,19 +8,19 @@ import TechContainer from './tech/TechContainer'
 const HomePage = () => {
   return (
     <div>
-      <section>
+      <section data-aos="fade-up" className="info-section">
         <InfoContainer />
       </section>
       <section className="aboutme-section">
         <AboutMe />
       </section>
-      <section>
+      <section className="facul-section">
         <Facul />
       </section>
       <section className="tech-section">
         <TechContainer />
       </section>
-      <section>
+      <section className="proj-section">
         <ProjsContainer />
       </section>
     </div>

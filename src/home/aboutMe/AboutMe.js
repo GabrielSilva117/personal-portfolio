@@ -3,7 +3,11 @@ import './aboutme.css'
 
 const AboutMe = () => {
   return (
-    <div className="aboutme-container">
+    <div
+      className="aboutme-container"
+      data-aos="fade-right"
+      data-aos-delay="300"
+    >
       <div className="subtitle">
         <h4>Sobre Mim</h4>
       </div>

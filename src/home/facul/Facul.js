@@ -4,7 +4,12 @@ import './facul.css'
 
 const Facul = () => {
   return (
-    <div className="facul-container">
+    <div
+      className="facul-container"
+      data-aos-placement="aboutme-section"
+      data-aos-delay="500"
+      data-aos="fade-up"
+    >
       <div className="subtitle">
         <h4>Formação</h4>
       </div>

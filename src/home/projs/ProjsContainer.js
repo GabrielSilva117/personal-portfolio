@@ -4,7 +4,11 @@ import './projs.css'
 
 const ProjsContainer = () => {
   return (
-    <div className="projs-container">
+    <div
+      className="projs-container"
+      data-aos="fade-up"
+      data-aos-placement="tech-section"
+    >
       <div className="subtitle" style={{ width: '1200px' }}>
         <h4>Projetos</h4>
       </div>
