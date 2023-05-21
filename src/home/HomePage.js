@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from './aboutMe/AboutMe'
+import Exp from './experience/Exp'
 import Facul from './facul/Facul'
 import InfoContainer from './info/InfoContainer'
 import ProjsContainer from './projs/ProjsContainer'
@@ -13,6 +14,9 @@ const HomePage = () => {
       </section>
       <section className="aboutme-section">
         <AboutMe />
+      </section>
+      <section className="exp-section">
+        <Exp />
       </section>
       <section className="facul-section">
         <Facul />
