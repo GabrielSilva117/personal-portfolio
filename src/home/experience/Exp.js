@@ -4,7 +4,7 @@ import './exp.css'
 
 const Exp = () => {
   return (
-    <div className="exp-container">
+    <div className="exp-container" data-aos="fade-up" data-aos-delay="400">
       <div className="subtitle">
         <h4>Experiência</h4>
       </div>
