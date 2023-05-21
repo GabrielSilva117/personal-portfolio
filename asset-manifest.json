@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.82a19a14.css",
-    "main.js": "/personal-portfolio/static/js/main.530de0c3.js",
+    "main.js": "/personal-portfolio/static/js/main.68b9f588.js",
     "static/media/universidade-anhanguera-logo-1.png": "/personal-portfolio/static/media/universidade-anhanguera-logo-1.d5a5e5fe342d10561db4.png",
     "static/media/typeorm-icon.svg": "/personal-portfolio/static/media/typeorm-icon.acf7dabb239efb30294c5db82a175a6b.svg",
     "static/media/92172232.jpeg": "/personal-portfolio/static/media/92172232.1eec7ac24c10751a62be.jpeg",
     "static/media/weg-logo-1.png": "/personal-portfolio/static/media/weg-logo-1.f139e5217703ae7fc4f0.png",
     "index.html": "/personal-portfolio/index.html",
     "main.82a19a14.css.map": "/personal-portfolio/static/css/main.82a19a14.css.map",
-    "main.530de0c3.js.map": "/personal-portfolio/static/js/main.530de0c3.js.map"
+    "main.68b9f588.js.map": "/personal-portfolio/static/js/main.68b9f588.js.map"
   },
   "entrypoints": [
     "static/css/main.82a19a14.css",
-    "static/js/main.530de0c3.js"
+    "static/js/main.68b9f588.js"
   ]
 }
