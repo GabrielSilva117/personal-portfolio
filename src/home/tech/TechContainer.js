@@ -30,6 +30,7 @@ const TechContainer = () => {
       className="table-container"
       data-aos-placement="facul-section"
       data-aos="fade-up"
+      data-aos-delay="600"
     >
       <div className="subtitle">
         <h4>Tecnologias</h4>
