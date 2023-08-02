@@ -18,9 +18,13 @@ import {
   SiMongodb,
   SiGit,
   SiJsonwebtokens,
-  SiJson
+  SiJson,
+  SiVaadin,
+  SiVuedotjs,
+  SiAngular
 } from 'react-icons/si'
 import { TbApi } from 'react-icons/tb'
+import { DiJava } from 'react-icons/di'
 import './tech.css'
 
 const TechContainer = () => {
@@ -51,7 +55,7 @@ const TechContainer = () => {
             </th>
             <th>JavaScript</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -59,13 +63,13 @@ const TechContainer = () => {
             </th>
             <th>TypeScript</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
-              <SiReact size={iconSize} />
+              <DiJava size={iconSize} />
             </th>
-            <th>React</th>
+            <th>Java</th>
             <th>Intermediário</th>
             <th>0/1 ano</th>
           </tr>
@@ -79,11 +83,43 @@ const TechContainer = () => {
           </tr>
           <tr>
             <th>
+              <SiReact size={iconSize} />
+            </th>
+            <th>React</th>
+            <th>Intermediário</th>
+            <th>0/1 ano</th>
+          </tr>
+          <tr>
+            <th>
+              <SiAngular size={iconSize} />
+            </th>
+            <th>Angular</th>
+            <th>Intermediário</th>
+            <th>0/1 ano</th>
+          </tr>
+          <tr>
+            <th>
+              <SiVuedotjs size={iconSize} />
+            </th>
+            <th>Vue</th>
+            <th>Intermediário</th>
+            <th>0/1 ano</th>
+          </tr>
+          <tr>
+            <th>
+              <SiVaadin size={iconSize} />
+            </th>
+            <th>Vaadin</th>
+            <th>Intermediário</th>
+            <th>0/1 ano</th>
+          </tr>
+          <tr>
+            <th>
               <SiNodedotjs size={iconSize} />
             </th>
             <th>NodeJs</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -91,7 +127,7 @@ const TechContainer = () => {
             </th>
             <th>Express</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -99,7 +135,7 @@ const TechContainer = () => {
             </th>
             <th>HTML5</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -107,7 +143,7 @@ const TechContainer = () => {
             </th>
             <th>CSS3</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -115,7 +151,7 @@ const TechContainer = () => {
             </th>
             <th>Bootstrap</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -131,15 +167,15 @@ const TechContainer = () => {
             </th>
             <th>PostgreSQL</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
               <SiMysql size={iconSize} />
             </th>
             <th>MySQL</th>
-            <th>Básico</th>
-            <th>0/1 ano</th>
+            <th>Intermediário</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -185,7 +221,7 @@ const TechContainer = () => {
             </th>
             <th>Git</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -193,7 +229,7 @@ const TechContainer = () => {
             </th>
             <th>Json</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -201,7 +237,7 @@ const TechContainer = () => {
             </th>
             <th>Json Web Tokens</th>
             <th>Intermediário</th>
-            <th>0/1 ano</th>
+            <th>2 anos</th>
           </tr>
           <tr>
             <th>
@@ -209,7 +245,7 @@ const TechContainer = () => {
             </th>
             <th>REST API</th>
             <th>Intermediário</th>
-            <th>1/2 anos</th>
+            <th>2 anos</th>
           </tr>
         </tbody>
       </Table>
