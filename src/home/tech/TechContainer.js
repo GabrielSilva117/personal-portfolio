@@ -29,6 +29,148 @@ import './tech.css'
 
 const TechContainer = () => {
   const iconSize = '1.5rem'
+
+  const skills = [
+    {
+      icon: <SiJavascript size={iconSize} />,
+      name: "JavaScript",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiTypescript size={iconSize} />,
+      name: "TypeScript",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <DiJava size={iconSize} />,
+      name: "Java",
+      level: "Intermediário",
+      experience: "0/1 ano"
+    },
+    {
+      icon: <SiPython size={iconSize} />,
+      name: "Python",
+      level: "Básico",
+      experience: "0/1 ano"
+    },
+    {
+      icon: <SiReact size={iconSize} />,
+      name: "React",
+      level: "Intermediário",
+      experience: "0/1 ano"
+    },
+    {
+      icon: <SiAngular size={iconSize} />,
+      name: "Angular",
+      level: "Intermediário",
+      experience: "0/1 ano"
+    },
+    {
+      icon: <SiVuedotjs size={iconSize} />,
+      name: "Vue",
+      level: "Intermediário",
+      experience: "0/1 ano"
+    },
+    {
+      icon: <SiVaadin size={iconSize} />,
+      name: "Vaadin",
+      level: "Intermediário",
+      experience: "0/1 ano"
+    },
+    {
+      icon: <SiNodedotjs size={iconSize} />,
+      name: "NodeJs",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiExpress size={iconSize} />,
+      name: "Express",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiHtml5 size={iconSize} />,
+      name: "HTML5",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiCss3 size={iconSize} />,
+      name: "CSS3",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiBootstrap size={iconSize} />,
+      name: "Bootstrap",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiHandlebarsdotjs size={iconSize} />,
+      name: "Handlebars",
+      level: "Básico",
+      experience: "0/1 ano"
+    },
+    {
+      icon: <SiPostgresql size={iconSize} />,
+      name: "PostgreSQL",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiMysql size={iconSize} />,
+      name: "MySQL",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiMongodb size={iconSize} />,
+      name: "MongoDB",
+      level: "Intermediário",
+      experience: "1/2 anos"
+    },
+    {
+      icon: <img src={typeorm} alt="" style={{ width: '1.5rem', height: '1.5rem' }} />,
+      name: "TypeORM",
+      level: "Intermediário",
+      experience: "1/2 anos"
+    },
+    {
+      icon: <img src={mongoose} alt="" style={{ width: '1.5rem', height: '1.5rem' }} />,
+      name: "Mongoose",
+      level: "Intermediário",
+      experience: "1/2 anos"
+    },
+    {
+      icon: <SiGit size={iconSize} />,
+      name: "Git",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiJson size={iconSize} />,
+      name: "Json",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <SiJsonwebtokens size={iconSize} />,
+      name: "Json Web Tokens",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+    {
+      icon: <TbApi size={iconSize} />,
+      name: "REST API",
+      level: "Intermediário",
+      experience: "2 anos"
+    }
+  ];
+
   return (
     <div
       className="table-container"
@@ -49,204 +191,17 @@ const TechContainer = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th>
-              <SiJavascript size={iconSize} />
-            </th>
-            <th>JavaScript</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiTypescript size={iconSize} />
-            </th>
-            <th>TypeScript</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <DiJava size={iconSize} />
-            </th>
-            <th>Java</th>
-            <th>Intermediário</th>
-            <th>0/1 ano</th>
-          </tr>
-          <tr>
-            <th>
-              <SiPython size={iconSize} />
-            </th>
-            <th>Python</th>
-            <th>Básico</th>
-            <th>0/1 ano</th>
-          </tr>
-          <tr>
-            <th>
-              <SiReact size={iconSize} />
-            </th>
-            <th>React</th>
-            <th>Intermediário</th>
-            <th>0/1 ano</th>
-          </tr>
-          <tr>
-            <th>
-              <SiAngular size={iconSize} />
-            </th>
-            <th>Angular</th>
-            <th>Intermediário</th>
-            <th>0/1 ano</th>
-          </tr>
-          <tr>
-            <th>
-              <SiVuedotjs size={iconSize} />
-            </th>
-            <th>Vue</th>
-            <th>Intermediário</th>
-            <th>0/1 ano</th>
-          </tr>
-          <tr>
-            <th>
-              <SiVaadin size={iconSize} />
-            </th>
-            <th>Vaadin</th>
-            <th>Intermediário</th>
-            <th>0/1 ano</th>
-          </tr>
-          <tr>
-            <th>
-              <SiNodedotjs size={iconSize} />
-            </th>
-            <th>NodeJs</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiExpress size={iconSize} />
-            </th>
-            <th>Express</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiHtml5 size={iconSize} />
-            </th>
-            <th>HTML5</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiCss3 size={iconSize} />
-            </th>
-            <th>CSS3</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiBootstrap size={iconSize} />
-            </th>
-            <th>Bootstrap</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiHandlebarsdotjs size={iconSize} />
-            </th>
-            <th>Handlebars</th>
-            <th>Básico</th>
-            <th>0/1 ano</th>
-          </tr>
-          <tr>
-            <th>
-              <SiPostgresql size={iconSize} />
-            </th>
-            <th>PostgreSQL</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiMysql size={iconSize} />
-            </th>
-            <th>MySQL</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiMongodb size={iconSize} />
-            </th>
-            <th>MongoDB</th>
-            <th>Intermediário</th>
-            <th>1/2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <img
-                src={typeorm}
-                alt=""
-                style={{
-                  width: '1.5rem',
-                  heigth: '1.5rem'
-                }}
-              />
-            </th>
-            <th>TypeORM</th>
-            <th>Intermediário</th>
-            <th>1/2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <img
-                src={mongoose}
-                alt=""
-                style={{
-                  width: '1.5rem',
-                  heigth: '1.5rem'
-                }}
-              />
-            </th>
-            <th>Mongoose</th>
-            <th>Intermediário</th>
-            <th>1/2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiGit size={iconSize} />
-            </th>
-            <th>Git</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiJson size={iconSize} />
-            </th>
-            <th>Json</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <SiJsonwebtokens size={iconSize} />
-            </th>
-            <th>Json Web Tokens</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
-          <tr>
-            <th>
-              <TbApi size={iconSize} />
-            </th>
-            <th>REST API</th>
-            <th>Intermediário</th>
-            <th>2 anos</th>
-          </tr>
+        {
+          skills.map((skill, index) => (
+              <tr key={index}>
+                <th>{skill.icon}</th>
+                <th>{skill.name}</th>
+                <th>{skill.level}</th>
+                <th>{skill.experience}</th>
+              </tr>
+          ))
+        }
+
         </tbody>
       </Table>
     </div>
