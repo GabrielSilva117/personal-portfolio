@@ -11,7 +11,7 @@ const DownloadButton = () => {
 
     return (
         <div>
-            <a style={buttonStyle} href="/curriculo.pdf" download="curriculo.pdf">
+            <a style={buttonStyle} href={process.env.PUBLIC_URL + '/curriculo.pdf'} download="curriculo.pdf">
                 <button class="btn btn-outline-secondary"><icon class="pr-2"><BiDownload /></icon>
                     Download Currículo
                 </button>
