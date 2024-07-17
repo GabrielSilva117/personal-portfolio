@@ -5,6 +5,7 @@ import Facul from './facul/Facul'
 import InfoContainer from './info/InfoContainer'
 import ProjsContainer from './projs/ProjsContainer'
 import TechContainer from './tech/TechContainer'
+import CurriculoBtn from "./curriculo/CurriculoBtn";
 
 const HomePage = () => {
   return (
@@ -27,6 +28,9 @@ const HomePage = () => {
       <section className="proj-section">
         <ProjsContainer />
       </section>
+        <button>
+            <CurriculoBtn />
+        </button>
     </div>
   )
 }
