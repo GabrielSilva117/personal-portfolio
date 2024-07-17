@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.322702f1.css",
-    "main.js": "/personal-portfolio/static/js/main.7cfa76cb.js",
-    "static/media/universidade-anhanguera-logo-1.png": "/personal-portfolio/static/media/universidade-anhanguera-logo-1.d5a5e5fe342d10561db4.png",
-    "static/media/typeorm-icon.svg": "/personal-portfolio/static/media/typeorm-icon.acf7dabb239efb30294c5db82a175a6b.svg",
-    "static/media/92172232.jpeg": "/personal-portfolio/static/media/92172232.1eec7ac24c10751a62be.jpeg",
-    "static/media/weg-logo-1.png": "/personal-portfolio/static/media/weg-logo-1.f139e5217703ae7fc4f0.png",
-    "static/media/xiraba.jpeg": "/personal-portfolio/static/media/xiraba.d5a83af1f5ecef183e4c.jpeg",
-    "index.html": "/personal-portfolio/index.html",
-    "main.322702f1.css.map": "/personal-portfolio/static/css/main.322702f1.css.map",
-    "main.7cfa76cb.js.map": "/personal-portfolio/static/js/main.7cfa76cb.js.map"
+    "main.css": "https://gabrielsilva117.github.io/personal-portfolio/static/css/main.322702f1.css",
+    "main.js": "https://gabrielsilva117.github.io/personal-portfolio/static/js/main.39da81ab.js",
+    "static/media/universidade-anhanguera-logo-1.png": "https://gabrielsilva117.github.io/personal-portfolio/static/media/universidade-anhanguera-logo-1.d5a5e5fe342d10561db4.png",
+    "static/media/typeorm-icon.svg": "https://gabrielsilva117.github.io/personal-portfolio/static/media/typeorm-icon.acf7dabb239efb30294c5db82a175a6b.svg",
+    "static/media/92172232.jpeg": "https://gabrielsilva117.github.io/personal-portfolio/static/media/92172232.1eec7ac24c10751a62be.jpeg",
+    "static/media/weg-logo-1.png": "https://gabrielsilva117.github.io/personal-portfolio/static/media/weg-logo-1.f139e5217703ae7fc4f0.png",
+    "static/media/xiraba.jpeg": "https://gabrielsilva117.github.io/personal-portfolio/static/media/xiraba.d5a83af1f5ecef183e4c.jpeg",
+    "index.html": "https://gabrielsilva117.github.io/personal-portfolio/index.html",
+    "main.322702f1.css.map": "https://gabrielsilva117.github.io/personal-portfolio/static/css/main.322702f1.css.map",
+    "main.39da81ab.js.map": "https://gabrielsilva117.github.io/personal-portfolio/static/js/main.39da81ab.js.map"
   },
   "entrypoints": [
     "static/css/main.322702f1.css",
-    "static/js/main.7cfa76cb.js"
+    "static/js/main.39da81ab.js"
   ]
 }
