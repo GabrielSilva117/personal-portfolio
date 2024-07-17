@@ -24,7 +24,7 @@ import {
   SiAngular
 } from 'react-icons/si'
 import { TbApi } from 'react-icons/tb'
-import { DiJava } from 'react-icons/di'
+import {DiJava, DiPhp} from 'react-icons/di'
 import './tech.css'
 
 const TechContainer = () => {
@@ -47,7 +47,13 @@ const TechContainer = () => {
       icon: <DiJava size={iconSize} />,
       name: "Java",
       level: "Intermediário",
-      experience: "0/1 ano"
+      experience: "1 ano"
+    },
+    {
+      icon: <DiPhp size={iconSize} />,
+      name: "PHP",
+      level: "Intermediário",
+      experience: "1 ano"
     },
     {
       icon: <SiPython size={iconSize} />,
@@ -71,13 +77,13 @@ const TechContainer = () => {
       icon: <SiVuedotjs size={iconSize} />,
       name: "Vue",
       level: "Intermediário",
-      experience: "0/1 ano"
+      experience: "1 ano"
     },
     {
       icon: <SiVaadin size={iconSize} />,
       name: "Vaadin",
       level: "Intermediário",
-      experience: "0/1 ano"
+      experience: "1 ano"
     },
     {
       icon: <SiNodedotjs size={iconSize} />,
