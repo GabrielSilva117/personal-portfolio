@@ -20,7 +20,7 @@ function App() {
         </div>
         <ReactSwitch
           onChange={() => setDark(dark === 'true' ? 'false' : 'true')}
-          checked={dark === 'true' ? true : false}
+          checked={dark === 'true'}
         />
         <div>
           <BsMoonFill />
