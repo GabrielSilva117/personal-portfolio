@@ -30,9 +30,7 @@ const AboutMe = () => {
         <p>
           Sou Gabriel tenho {myAge} anos e sempre fui fascinado por tecnologia e pela
           área de TI, atualmente estou cursando Engenharia de Software no Setimo
-          semestre e atuo como desenvolvedor Full Stack na Xiraba Sistemas,
-          onde colaboro no desenvolvimento e na manutenção das aplicações da
-          mesma. Possuo conhecimento tanto em programação funcional quanto em
+          semestre e atuo como desenvolvedor Full Stack. Possuo conhecimento tanto em programação funcional quanto em
           POO e já desenvolvi/trabalhei com aplicações envolvendo as tecnologia
           citadas na tabela abaixo.
         </p>

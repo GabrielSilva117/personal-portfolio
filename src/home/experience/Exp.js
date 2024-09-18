@@ -7,21 +7,22 @@ import ExperienceBox from "./Components/ExperienceBox";
 
 const Exp = () => {
   const experiences = [
-    {
-      logo: xirabaLogo,
-      role: 'Desenvolvedor Full Stack -',
-      type: 'Full Time',
-      description: 'Possuo como responsabilidade o desenvolvimento e suporte do projeto WBS fornecido para a Weg, ' +
-          'onde desenvolvo utilizando Javascript na plataforma do Service Now',
-      duration: '07/24 - trabalho aqui atualmente'
-    },
+    // {
+    //   logo: xirabaLogo,
+    //   role: 'Desenvolvedor Full Stack -',
+    //   type: 'Full Time',
+    //   description: 'Possuo como responsabilidade o desenvolvimento e suporte do projeto WBS fornecido para a Weg, ' +
+    //       'onde desenvolvo utilizando Javascript na plataforma do Service Now',
+    //   duration: '07/24 - trabalho aqui atualmente'
+    // },
     {
       logo: geoLogo,
       role: 'Desenvolvedor Full Stack -',
       type: 'Full Time',
-      description: 'Atuiei colaborando com o desenvolvimento e manutenção nos projetos da empresa onde pratiquei e utilizei: ' +
-          'Vue, Java, Vaadin, PHP, Node, TypeScript, e PostgreSQL.',
-      duration: '06/23 - 06/24',
+      description: 'Atuo colaborando com o desenvolvimento e manutenção dos projetos da empresa,' +
+          'onde pratico e utilizo: Vue, Java, Vaadin, Spring Boot, Hibernate, JPA, PHP, C#, TypeScript,' +
+          ' Javascript, JQuery, BootStrap, PostgreSQL e MariaDB.',
+      duration: '06/23 - trabalho aqui atualmente',
     },
     {
       logo: wegLogo,
