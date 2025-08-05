@@ -1,13 +1,15 @@
 import React from 'react'
 import { SiJavascript, SiReact, SiTypescript } from 'react-icons/si'
 import APIs from './projBoxes/APIs'
-import BlogApp from './projBoxes/BlogApp'
+import BlogApp from './projBoxes/HardwareBack'
 import Freelancer from './projBoxes/Freelancer'
 import MoneySaver from './projBoxes/MoneySaver'
 import TechOver from './projBoxes/TechOver'
-import TodoList from './projBoxes/TodoList'
+import TodoList from './projBoxes/HardwareFront'
 import './projs.css'
 import ProjsSm from './ProjsSm'
+import HardwareBack from "./projBoxes/HardwareBack";
+import HardwareFront from "./projBoxes/HardwareFront";
 
 const ProjsContainer = () => {
   return (
@@ -22,11 +24,11 @@ const ProjsContainer = () => {
       <div className="projs-row">
         <div className="row-1">
           <TechOver />
-          <BlogApp />
+          <Freelancer />
         </div>
         <div className="row-1">
-          <Freelancer />
-          <TodoList />
+          <HardwareBack />
+          <HardwareFront />
         </div>
         <div className="row-1">
           <MoneySaver />

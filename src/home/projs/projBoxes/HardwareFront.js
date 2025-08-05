@@ -7,7 +7,7 @@ const TodoList = () => {
       <div className="proj-container-header">
         <div className="proj-title">
           <a
-            href="https://github.com/GabrielSilva117/todo_list"
+            href="https://github.com/GabrielSilva117/hardware-today-front"
             className="link-option"
           >
             <h1>Todo List</h1>
@@ -15,14 +15,15 @@ const TodoList = () => {
           <small>Front End</small>
         </div>
         <div className="proj-icon">
-          <SiReact size={'1.5rem'} />
+          <SiAngular size={'1.5rem'} />
         </div>
       </div>
       <p>
-        O projeto consiste em uma lista de afazeres, onde o usuário consegue
-        realizar ações CRUD para manipular suas "tarefas" e filtrar as mesma,
-        para obter apenas as que estão a fazer ou feitas. O projeto foi
-        iteiramente desenvolvido utilizando React.
+          No frontend do Hardware_today, desenvolvo a interface
+          do e-commerce utilizando Angular e TypeScript, com foco
+          em responsividade, usabilidade e performance. Utilizo Angular
+          Material e Bootstrap para compor o design e garantir uma
+          experiência moderna e consistente ao usuário.
       </p>
     </div>
   )

@@ -1,11 +1,11 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import APIs from './projBoxes/APIs'
-import BlogApp from './projBoxes/BlogApp'
+import BlogApp from './projBoxes/HardwareBack'
 import Evengration from './projBoxes/Freelancer'
 import MoneySaver from './projBoxes/MoneySaver'
 import TechOver from './projBoxes/TechOver'
-import TodoList from './projBoxes/TodoList'
+import TodoList from './projBoxes/HardwareFront'
 
 const ProjsSm = () => {
   return (
