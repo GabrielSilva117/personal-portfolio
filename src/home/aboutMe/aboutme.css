@@ -12,8 +12,8 @@
 }
 
 .aboutme-text {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
   margin-top: 10px;
 }
 .aboutme-text p {

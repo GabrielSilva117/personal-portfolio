@@ -28,12 +28,22 @@ const AboutMe = () => {
       </div>
       <div className="aboutme-text">
         <p>
-          Sou Gabriel tenho {myAge} anos e sempre fui fascinado por tecnologia e pela
-          área de TI, atualmente estou cursando Engenharia de Software no Setimo
-          semestre e atuo como desenvolvedor Full Stack. Possuo conhecimento tanto em programação funcional quanto em
-          POO e já desenvolvi/trabalhei com aplicações envolvendo as tecnologia
-          citadas na tabela abaixo.
+            Desenvolvedor Full Stack com sólida experiência em desenvolvimento web e
+            integração de sistemas empresariais, tendo atuado em projetos complexos para
+            empresas como WEG e GeoVendas. Possuo expertise no desenvolvimento de aplicações
+            com Java, Spring Boot, Vue.js e Node.js, além de amplo conhecimento em bancos de dados
+            relacionais (PostgreSQL, MySQL) e tecnologias cloud (AWS). Experiência comprovada na
+            implementação de integrações com sistemas empresariais como SAP ECC e SharePoint, bem
+            como no desenvolvimento de APIs RESTful e aplicações web responsivas.
         </p>
+          <p>
+              Destaco-me pela capacidade de entregar soluções completas e escaláveis, desde o desenvolvimento
+              backend com Java e Spring Boot até interfaces dinâmicas com Vue.js e Angular. Possuo histórico
+              comprovado na otimização de processos de desenvolvimento, tendo contribuído para a redução na
+              fila de projetos e melhorado a eficiência no repasse de projetos através de documentação estruturada.
+              Atualmente, desenvolvo soluções para o projeto WBS (Weg Business Service), onde aplico práticas de Clean
+              Code e metodologias ágeis para garantir a qualidade e manutenibilidade do código.
+          </p>
       </div>
     </div>
   )
