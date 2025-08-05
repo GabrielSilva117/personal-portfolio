@@ -12,7 +12,14 @@ const ExperienceBox = ({ experience }) => {
                     <p>{experience.type}</p>
                 </div>
                 <div className="exp-text-body">
-                    <p>{experience.description}</p>
+                    <p>{experience.description.summary}</p>
+                    <ul>
+                        {experience.description.subtopics.map((subtopic, index) => (
+                            <li key={index}>{subtopic}</li>
+                        ))}
+                    </ul>
+                    <small>Tecnologias utilizadas: {experience.description.technologies}</small>
+                    <br/>
                     <small>{experience.duration}</small>
                 </div>
             </div>
