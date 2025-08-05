@@ -3,28 +3,26 @@ import { Table } from 'react-bootstrap'
 import mongoose from '../../assets/images/mongoose.png'
 import typeorm from '../../assets/images/typeorm-icon.svg'
 import {
-  SiJavascript,
-  SiTypescript,
-  SiReact,
-  SiPython,
-  SiNodedotjs,
-  SiHtml5,
-  SiCss3,
-  SiExpress,
-  SiPostgresql,
-  SiMysql,
-  SiBootstrap,
-  SiHandlebarsdotjs,
-  SiMongodb,
-  SiGit,
-  SiJsonwebtokens,
-  SiJson,
-  SiVaadin,
-  SiVuedotjs,
-  SiAngular
+    SiJavascript,
+    SiTypescript,
+    SiReact,
+    SiPython,
+    SiNodedotjs,
+    SiExpress,
+    SiPostgresql,
+    SiMysql,
+    SiMongodb,
+    SiGit,
+    SiJsonwebtokens,
+    SiVuedotjs,
+    SiAngular,
+    SiRabbitmq,
+    SiSpringboot,
+    SiSpringsecurity,
+    SiDocker, SiHibernate,
 } from 'react-icons/si'
-import { TbApi } from 'react-icons/tb'
-import {DiJava, DiPhp} from 'react-icons/di'
+import {TbApi, TbDevicesPc} from 'react-icons/tb'
+import {DiJava, DiPhp, DiAws} from 'react-icons/di'
 import './tech.css'
 
 const TechContainer = () => {
@@ -35,7 +33,7 @@ const TechContainer = () => {
       icon: <SiJavascript size={iconSize} />,
       name: "JavaScript",
       level: "Intermediário",
-      experience: "2 anos"
+      experience: "3 anos"
     },
     {
       icon: <SiTypescript size={iconSize} />,
@@ -47,7 +45,7 @@ const TechContainer = () => {
       icon: <DiJava size={iconSize} />,
       name: "Java",
       level: "Intermediário",
-      experience: "1 ano"
+      experience: "2 ano"
     },
     {
       icon: <DiPhp size={iconSize} />,
@@ -59,29 +57,23 @@ const TechContainer = () => {
       icon: <SiPython size={iconSize} />,
       name: "Python",
       level: "Básico",
-      experience: "0/1 ano"
+      experience: ">1 ano"
     },
     {
       icon: <SiReact size={iconSize} />,
       name: "React",
       level: "Intermediário",
-      experience: "0/1 ano"
+      experience: ">1 ano"
     },
     {
       icon: <SiAngular size={iconSize} />,
       name: "Angular",
       level: "Intermediário",
-      experience: "0/1 ano"
+      experience: ">1 ano"
     },
     {
       icon: <SiVuedotjs size={iconSize} />,
       name: "Vue",
-      level: "Intermediário",
-      experience: "1 ano"
-    },
-    {
-      icon: <SiVaadin size={iconSize} />,
-      name: "Vaadin",
       level: "Intermediário",
       experience: "1 ano"
     },
@@ -96,30 +88,6 @@ const TechContainer = () => {
       name: "Express",
       level: "Intermediário",
       experience: "2 anos"
-    },
-    {
-      icon: <SiHtml5 size={iconSize} />,
-      name: "HTML5",
-      level: "Intermediário",
-      experience: "2 anos"
-    },
-    {
-      icon: <SiCss3 size={iconSize} />,
-      name: "CSS3",
-      level: "Intermediário",
-      experience: "2 anos"
-    },
-    {
-      icon: <SiBootstrap size={iconSize} />,
-      name: "Bootstrap",
-      level: "Intermediário",
-      experience: "2 anos"
-    },
-    {
-      icon: <SiHandlebarsdotjs size={iconSize} />,
-      name: "Handlebars",
-      level: "Básico",
-      experience: "0/1 ano"
     },
     {
       icon: <SiPostgresql size={iconSize} />,
@@ -137,31 +105,25 @@ const TechContainer = () => {
       icon: <SiMongodb size={iconSize} />,
       name: "MongoDB",
       level: "Intermediário",
-      experience: "1/2 anos"
+      experience: ">2 anos"
     },
     {
       icon: <img src={typeorm} alt="" style={{ width: '1.5rem', height: '1.5rem' }} />,
       name: "TypeORM",
       level: "Intermediário",
-      experience: "1/2 anos"
+      experience: ">2 anos"
     },
     {
       icon: <img src={mongoose} alt="" style={{ width: '1.5rem', height: '1.5rem' }} />,
       name: "Mongoose",
       level: "Intermediário",
-      experience: "1/2 anos"
+      experience: ">2 anos"
     },
     {
       icon: <SiGit size={iconSize} />,
       name: "Git",
       level: "Intermediário",
-      experience: "2 anos"
-    },
-    {
-      icon: <SiJson size={iconSize} />,
-      name: "Json",
-      level: "Intermediário",
-      experience: "2 anos"
+      experience: "3 anos"
     },
     {
       icon: <SiJsonwebtokens size={iconSize} />,
@@ -170,11 +132,47 @@ const TechContainer = () => {
       experience: "2 anos"
     },
     {
-      icon: <TbApi size={iconSize} />,
-      name: "REST API",
+      icon: <SiSpringboot size={iconSize} />,
+      name: "Spring Boot",
       level: "Intermediário",
       experience: "2 anos"
-    }
+    },
+      {
+          icon: <SiSpringsecurity size={iconSize} />,
+          name: "Spring Security",
+          level: "Básico",
+          experience: ">1 anos"
+      },
+    {
+      icon: <SiHibernate size={iconSize} />,
+      name: "Hibernate",
+      level: "Intermediário",
+      experience: "2 anos"
+    },
+      {
+          icon: <SiRabbitmq size={iconSize} />,
+          name: "RabbitMQ",
+          level: "Básico",
+          experience: ">1 anos"
+      },
+      {
+          icon: <TbDevicesPc size={iconSize} />,
+          name: "Microserviços",
+          level: "Básico",
+          experience: ">1 anos"
+      },
+      {
+          icon: <SiDocker size={iconSize} />,
+          name: "Docker",
+          level: "Básico",
+          experience: ">1 anos"
+      },
+      {
+          icon: <DiAws size={iconSize} />,
+          name: "AWS",
+          level: "Básico",
+          experience: ">1 anos"
+      }
   ];
 
   return (
