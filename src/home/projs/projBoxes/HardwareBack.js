@@ -1,7 +1,7 @@
 import React from 'react'
 import {SiJava, SiJavascript} from 'react-icons/si'
 
-const BlogApp = () => {
+const HardwareBack = () => {
   return (
     <div className="proj-container">
       <div className="proj-container-header">
@@ -19,7 +19,7 @@ const BlogApp = () => {
         </div>
       </div>
       <p>
-          Hardware_today é um e-commerce voltado para o público tech
+          Hardware Today é um e-commerce voltado para o público tech
           e gamer, focado na venda de hardware e periféricos. No projeto,
           estou responsável pela implementação das regras de negócio e da
           infraestrutura de comunicação entre serviços, utilizando tecnologias
@@ -32,4 +32,4 @@ const BlogApp = () => {
   )
 }
 
-export default BlogApp
+export default HardwareBack

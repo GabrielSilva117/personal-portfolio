@@ -1,7 +1,7 @@
 import React from 'react'
-import { SiReact } from 'react-icons/si'
+import {SiAngular, SiReact} from 'react-icons/si'
 
-const TodoList = () => {
+const HardwareFront = () => {
   return (
     <div className="proj-container">
       <div className="proj-container-header">
@@ -10,7 +10,7 @@ const TodoList = () => {
             href="https://github.com/GabrielSilva117/hardware-today-front"
             className="link-option"
           >
-            <h1>Todo List</h1>
+            <h1>Hardware Today</h1>
           </a>
           <small>Front End</small>
         </div>
@@ -19,7 +19,7 @@ const TodoList = () => {
         </div>
       </div>
       <p>
-          No frontend do Hardware_today, desenvolvo a interface
+          No frontend, desenvolvo a interface
           do e-commerce utilizando Angular e TypeScript, com foco
           em responsividade, usabilidade e performance. Utilizo Angular
           Material e Bootstrap para compor o design e garantir uma
@@ -29,4 +29,4 @@ const TodoList = () => {
   )
 }
 
-export default TodoList
+export default HardwareFront
