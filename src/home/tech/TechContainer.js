@@ -45,7 +45,7 @@ const TechContainer = () => {
       icon: <DiJava size={iconSize} />,
       name: "Java",
       level: "Intermediário",
-      experience: "2 ano"
+      experience: "2 anos"
     },
     {
       icon: <DiPhp size={iconSize} />,
@@ -69,7 +69,7 @@ const TechContainer = () => {
       icon: <SiAngular size={iconSize} />,
       name: "Angular",
       level: "Intermediário",
-      experience: ">1 ano"
+      experience: "1 ano"
     },
     {
       icon: <SiVuedotjs size={iconSize} />,
@@ -141,7 +141,7 @@ const TechContainer = () => {
           icon: <SiSpringsecurity size={iconSize} />,
           name: "Spring Security",
           level: "Básico",
-          experience: ">1 anos"
+          experience: ">1 ano"
       },
     {
       icon: <SiHibernate size={iconSize} />,
@@ -153,25 +153,25 @@ const TechContainer = () => {
           icon: <SiRabbitmq size={iconSize} />,
           name: "RabbitMQ",
           level: "Básico",
-          experience: ">1 anos"
+          experience: ">1 ano"
       },
       {
           icon: <TbDevicesPc size={iconSize} />,
           name: "Microserviços",
           level: "Básico",
-          experience: ">1 anos"
+          experience: ">1 ano"
       },
       {
           icon: <SiDocker size={iconSize} />,
           name: "Docker",
           level: "Básico",
-          experience: ">1 anos"
+          experience: ">1 ano"
       },
       {
           icon: <DiAws size={iconSize} />,
           name: "AWS",
           level: "Básico",
-          experience: ">1 anos"
+          experience: ">1 ano"
       }
   ];
 
