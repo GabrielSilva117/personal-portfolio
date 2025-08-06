@@ -26,8 +26,7 @@ const Facul = () => {
         </div>
         <div className="facul-text-row">
           <p>
-            {'> '}Engenharia de Software - Anhanguera - Previsão de conclusão:
-            2024/2
+            {'> '}Engenharia de Software - Anhanguera
           </p>
         </div>
       </div>
