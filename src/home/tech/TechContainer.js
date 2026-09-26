@@ -25,6 +25,27 @@ import {TbApi, TbDevicesPc} from 'react-icons/tb'
 import {DiJava, DiPhp, DiAws} from 'react-icons/di'
 import './tech.css'
 
+const getYearsSince = (sinceDate) => {
+  const startDate = new Date(sinceDate);
+  const curDate = new Date();
+
+  let years = curDate.getFullYear() - startDate.getFullYear();
+
+  const monthDiff = curDate.getMonth() - startDate.getMonth();
+  if (monthDiff < 0 || (monthDiff === 0 && curDate.getDate() < startDate.getDate())) {
+    years--;
+  }
+
+  return Math.max(years, 0);
+}
+
+const formatExperience = (sinceDate, approx = false) => {
+  const years = getYearsSince(sinceDate);
+  const label = years === 1 ? 'ano' : 'anos';
+
+  return `${years} ${label}`;
+}
+
 const TechContainer = () => {
   const iconSize = '1.5rem'
 
@@ -33,145 +54,155 @@ const TechContainer = () => {
       icon: <SiJavascript size={iconSize} />,
       name: "JavaScript",
       level: "Intermediário",
-      experience: "3 anos"
+      since: "2023-09-26"
     },
     {
       icon: <SiTypescript size={iconSize} />,
       name: "TypeScript",
       level: "Intermediário",
-      experience: "2 anos"
+      since: "2024-09-26"
     },
     {
       icon: <DiJava size={iconSize} />,
       name: "Java",
       level: "Intermediário",
-      experience: "2 anos"
+      since: "2024-09-26"
     },
     {
       icon: <DiPhp size={iconSize} />,
       name: "PHP",
       level: "Intermediário",
-      experience: "1 ano"
+      since: "2025-09-26"
     },
     {
       icon: <SiPython size={iconSize} />,
       name: "Python",
       level: "Básico",
-      experience: ">1 ano"
+      since: "2025-09-26",
+      approx: true
     },
     {
       icon: <SiReact size={iconSize} />,
       name: "React",
       level: "Intermediário",
-      experience: ">1 ano"
+      since: "2025-09-26",
+      approx: true
     },
     {
       icon: <SiAngular size={iconSize} />,
       name: "Angular",
       level: "Intermediário",
-      experience: "1 ano"
+      since: "2024-09-26"
     },
     {
       icon: <SiVuedotjs size={iconSize} />,
       name: "Vue",
       level: "Intermediário",
-      experience: "1 ano"
+      since: "2025-09-26"
     },
     {
       icon: <SiNodedotjs size={iconSize} />,
       name: "NodeJs",
       level: "Intermediário",
-      experience: "2 anos"
+      since: "2024-09-26"
     },
     {
       icon: <SiExpress size={iconSize} />,
       name: "Express",
       level: "Intermediário",
-      experience: "2 anos"
+      since: "2024-09-26"
     },
     {
       icon: <SiPostgresql size={iconSize} />,
       name: "PostgreSQL",
       level: "Intermediário",
-      experience: "2 anos"
+      since: "2024-09-26"
     },
     {
       icon: <SiMysql size={iconSize} />,
       name: "MySQL",
       level: "Intermediário",
-      experience: "2 anos"
+      since: "2024-09-26"
     },
     {
       icon: <SiMongodb size={iconSize} />,
       name: "MongoDB",
       level: "Intermediário",
-      experience: ">2 anos"
+      since: "2024-09-26",
+      approx: true
     },
     {
       icon: <img src={typeorm} alt="" style={{ width: '1.5rem', height: '1.5rem' }} />,
       name: "TypeORM",
       level: "Intermediário",
-      experience: ">2 anos"
+      since: "2024-09-26",
+      approx: true
     },
     {
       icon: <img src={mongoose} alt="" style={{ width: '1.5rem', height: '1.5rem' }} />,
       name: "Mongoose",
       level: "Intermediário",
-      experience: ">2 anos"
+      since: "2024-09-26",
+      approx: true
     },
     {
       icon: <SiGit size={iconSize} />,
       name: "Git",
       level: "Intermediário",
-      experience: "3 anos"
+      since: "2023-09-26"
     },
     {
       icon: <SiJsonwebtokens size={iconSize} />,
       name: "Json Web Tokens",
       level: "Intermediário",
-      experience: "2 anos"
+      since: "2024-09-26"
     },
     {
       icon: <SiSpringboot size={iconSize} />,
       name: "Spring Boot",
       level: "Intermediário",
-      experience: "2 anos"
+      since: "2024-09-26"
     },
       {
           icon: <SiSpringsecurity size={iconSize} />,
           name: "Spring Security",
-          level: "Básico",
-          experience: ">1 ano"
+          level: "Intermediário",
+          since: "2025-09-26",
+          approx: true
       },
     {
       icon: <SiHibernate size={iconSize} />,
       name: "Hibernate",
       level: "Intermediário",
-      experience: "2 anos"
+      since: "2024-09-26"
     },
       {
           icon: <SiRabbitmq size={iconSize} />,
           name: "RabbitMQ",
-          level: "Básico",
-          experience: ">1 ano"
+          level: "Intermediário",
+          since: "2025-09-26",
+          approx: true
       },
       {
           icon: <TbDevicesPc size={iconSize} />,
           name: "Microserviços",
-          level: "Básico",
-          experience: ">1 ano"
+          level: "Intermediário",
+          since: "2025-09-26",
+          approx: true
       },
       {
           icon: <SiDocker size={iconSize} />,
           name: "Docker",
-          level: "Básico",
-          experience: ">1 ano"
+          level: "Intermediário",
+          since: "2025-09-26",
+          approx: true
       },
       {
           icon: <DiAws size={iconSize} />,
           name: "AWS",
-          level: "Básico",
-          experience: ">1 ano"
+          level: "Intermediário",
+          since: "2025-09-26",
+          approx: true
       }
   ];
 
@@ -201,7 +232,7 @@ const TechContainer = () => {
                 <th>{skill.icon}</th>
                 <th>{skill.name}</th>
                 <th>{skill.level}</th>
-                <th>{skill.experience}</th>
+                <th>{formatExperience(skill.since, skill.approx)}</th>
               </tr>
           ))
         }

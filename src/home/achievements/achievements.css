@@ -1,0 +1,37 @@
+.achievements-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.achievements-container {
+  align-items: center;
+  display: grid;
+  width: 850px;
+  height: auto;
+  margin: 20px;
+}
+
+.achievement-content-box {
+  padding-top: 20px;
+}
+
+.achievement-text-header {
+  display: flex;
+  align-items: baseline;
+}
+
+.achievement-text-header h2 {
+  font-size: 20px;
+}
+
+.achievement-text-header p {
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: light;
+}
+
+.achievement-text-body p {
+  text-align: justify;
+  font-size: 14px;
+}

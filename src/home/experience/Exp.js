@@ -12,16 +12,16 @@ const Exp = () => {
                 role: 'Desenvolvedor Full Stack -',
                 type: 'Full Time',
                 description: {
-                    summary: 'Desenvolvimento de soluções empresariais no projeto WBS (Weg Business Service), com foco em automatização de processos e integração de sistemas corporativos para otimização da venda de serviços.',
+                    summary: 'Desenvolvimento de soluções empresariais para automação de processos e integração de sistemas corporativos, com foco na venda de serviços e no recebimento fiscal de unidades internacionais.',
                     subtopics: [
-                        'Implementação de integrações avançadas com SAP ECC através de RFCs, possibilitando a manipulação automatizada de informações fiscais e dados críticos do negócio em tempo real.',
+                        'Implementações referentes ao recebimento fiscal, incluindo processamento via OCR e integração com ERPs internacionais.',
+                        'Implementação de integrações avançadas com SAP através de RFCs e REST, possibilitando a manipulação automatizada de informações fiscais e dados críticos do negócio em tempo real.',
                         'Desenvolvimento de integração pioneira com SharePoint utilizando scripts customizados, viabilizando o gerenciamento eficiente de documentos e fluxos de trabalho corporativos.',
-                        'Customização e otimização de formulários dinâmicos na plataforma, permitindo a solicitação e liberação de acessos com validações automatizadas.',
-                        'Implementação de funcionalidades específicas para atendimento de metas PWQP, incluindo desenvolvimento de dashboards analíticos para monitoramento de KPIs.',
+                        'Customização e otimização de funcionalidades dinâmicas na plataforma com regras de negócio complexas voltadas ao fluxo do contas a pagar e afins.',
                         'Execução de apresentações técnicas das novas funcionalidades desenvolvidas, garantindo o alinhamento entre equipes e a correta utilização dos recursos implementados.',
                         'Colaboração no desenvolvimento da integração com GPT e WEG Gen AI na plataforma WBS'
                     ],
-                    technologies: 'JavaScript e Java, integrações com SAP ECC, Sharepoint, gpt e outros'
+                    technologies: 'JavaScript, Java, ShellScript, integrações com SAP, Sharepoint, Azure, genAI e outros'
                 },
                 duration: '07/24 - trabalho aqui atualmente'
             },
